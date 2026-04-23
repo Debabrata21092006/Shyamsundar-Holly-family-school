@@ -8,6 +8,7 @@
   --navy2:   #1a3d7a;
   --gold:    #e8a820;
   --gold2:   #f5c84a;
+  --ocher:  #cc7722;
   --sky:     #e8f2fd;
   --white:   #ffffff;
   --off:     #f7f9fc;
@@ -115,7 +116,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   transition: var(--trans);
 }
 .navbar.scrolled {
-  background: rgba(255,255,255,0.96);
+  background: rgba(114, 114, 117, 0.96);
   backdrop-filter: blur(12px);
   padding: 12px 0;
   box-shadow: 0 2px 20px rgba(15,45,94,0.10);
@@ -454,7 +455,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
    ACTIVITIES
    =================================== */
 .activities {
-  background: linear-gradient(160deg, #0c2550 0%, var(--navy2) 100%);
+  background: linear-gradient(160deg, #4779cf 0%, var(--navy2) 100%);
   position: relative;
   overflow: hidden;
 }
